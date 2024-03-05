@@ -7,12 +7,12 @@ public class sabytest {
 
     @Test
     void test() {
-        Configuration.baseUrl = "https://test-online.sbis.ru/";
+        Configuration.baseUrl = "https://www.wikipedia.org/";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
         Configuration.holdBrowserOpen = true;
 
-        // Открыть главную страницу СБИС
-        open("https://test-online.sbis.ru/");
+        // Открыть главную страницу wiki
+        open("https://www.wikipedia.org/");
     }
 }
